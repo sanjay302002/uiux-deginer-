@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sanjay Arumugam | Graphic Designer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<!-- CUSTOM CURSOR -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+<body>
+
+<!-- HERO -->
+<header class="hero reveal">
+  <div class="hero-bg"></div>
+
+  <div class="hero-card">
+    <h1>Sanjay <span>Arumugam</span></h1>
+
+    <div class="hero-line"></div>
+
+    <p class="hero-role">Graphic Designer</p>
+    <p class="hero-focus">Poster Design • Branding • Visual Design</p>
+
+    <a href="#portfolio" class="btn hero-btn">View Portfolio</a>
+  </div>
+</header>
+
+
+<!-- ABOUT -->
+<section class="about reveal">
+  <h2>About Me</h2>
+
+  <div class="about-card">
+    <p>
+      I’m a <span>Graphic Designer</span> who focuses on creating
+      <span>eye-catching posters</span>, clean layouts, and
+      <span>strong visual identities</span>.
+    </p>
+
+    <div class="about-line"></div>
+
+    <p>
+      I enjoy working with <span>typography</span>,
+      visual hierarchy, and modern design systems to turn ideas into
+      <span>high-impact visuals</span> that communicate clearly.
+    </p>
+
+    <div class="about-tags">
+      <span>Posters</span>
+      <span>Branding</span>
+      <span>Visual Design</span>
+      <span>Creative Thinking</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section class="skills reveal">
+  <h2>Skills</h2>
+
+  <div class="skills-wrap">
+
+    <div class="skill">
+      <div class="icon poster"></div>
+      <span>Poster Design</span>
+    </div>
+
+    <div class="skill">
+      <div class="icon branding"></div>
+      <span>Branding</span>
+    </div>
+
+    <div class="skill">
+      <div class="icon social"></div>
+      <span>Social Creatives</span>
+    </div>
+
+    <div class="skill">
+      <div class="icon photoshop"></div>
+      <span>Photoshop</span>
+    </div>
+
+    <div class="skill">
+      <div class="icon illustrator"></div>
+      <span>Illustrator</span>
+    </div>
+
+    <div class="skill">
+      <div class="icon figma"></div>
+      <span>Figma</span>
+    </div>
+
+    <div class="skill">
+      <div class="icon canva"></div>
+      <span>Canva</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+  <h2 class="reveal">Selected Works</h2>
+
+  <div class="portfolio-grid">
+    <div class="work reveal">
+      <img src="assets/posters/1.png" alt="">
+      <div class="overlay">Internship Poster</div>
+    </div>
+
+    <div class="work reveal">
+      <img src="assets/posters/tips fitness instagram post.png" alt="">
+      <div class="overlay">Marketing Creative</div>
+    </div>
+
+    <div class="work reveal">
+      <img src="assets/posters/3 (1).png" alt="">
+      <div class="overlay">Brand Promotion</div>
+    </div>
+
+    <div class="work reveal">
+      <img src="assets/posters/4.png" alt="">
+      <div class="overlay">Social Media Post</div>
+    </div>
+  </div>
+</section>
+<div class="hero-actions">
+  <a href="https://drive.google.com/drive/folders/1YQaJjBV5O7CuF0jkOppD8izXhcQ-W1eO?usp=drive_link" class="btn outline-btn">View Posters</a>
+</div>
+
+
+<!-- CONTACT -->
+<section class="contact reveal">
+  <h2>Contact</h2>
+  <p>📧 asanjayarumugam77@gmail.com</p>
+  <p>📞 6380853637</p>
+  <p>📍 Coimbatore</p>
+</section>
+
+<footer>
+  © 2025 Sanjay Arumugam
+</footer>
+<script>
+  const cursor = document.querySelector('.cursor');
+  const follower = document.querySelector('.cursor-follower');
+
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+
+    follower.style.left = e.clientX + 'px';
+    follower.style.top = e.clientY + 'px';
+  });
+</script>
+
+
+</body>
+</html>
